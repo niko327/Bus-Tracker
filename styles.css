@@ -1,0 +1,25 @@
+#map {
+  position: absolute;
+  top: 100px;
+  bottom: 100px;
+  left: 100px;
+  right: 100px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  }
+
+.map-overlay {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  padding: 10px;
+  align-items: center;
+}
+
+#gradBG {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(61, 151, 253); /* For browsers that do not support gradients */
+  background-image: linear-gradient(-45deg, rgb(61, 151, 253), rgb(134, 32, 230));
+}
